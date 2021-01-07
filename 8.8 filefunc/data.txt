@@ -1,0 +1,7 @@
+Ogniskowa obiektywu: 1800 mm
+.   f okularu   powiekszenie
+        30.0             60
+        19.0             95
+        14.0            129
+         8.8            205
+         7.5            240
