@@ -1,0 +1,24 @@
+2. Co różni funkcję zaprzyjaźnioną z klasą od metody klasy?
+
+Metoda klasy niejawnie przekazuje "niejawnie" siebie jako argument.
+Ponadto jest ona funkcją klasy.
+Funkcja zaprzyjaźniona nie jest częścią klasy i nie jest wywoływana
+przez konkretny obiekt.
+Metoda ma bezpośredni dostęp do składowych klasy, a funkcja zaprzyjaźniona 
+żeby to robić musi posłużyć się operatorem przyjaźni.
+
+3. Czy funkcja niebędąca składową klasy musi być z nią zaprzyjaźniona, aby
+odwoływać się do składowych klasy?
+
+Musi być funkcją zaprzyjaźnioną, żeby mieć dostęp do składowych prywatnych, 
+nie musi jednak być funkcją zaprzyjaźnioną, by odwoływać się do składowych publicznych.
+
+5. Jakich operatorów nie można przeciążyć?
+
+a) sizeof
+b) .
+c) .*
+d) ::
+e) ? :
+
+
