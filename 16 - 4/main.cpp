@@ -7,6 +7,7 @@ int main()
 {
     long array[] = {1,2,2,3,5,7,9,3};
     int newSizeOfArr = reduce(array, sizeof(array) / sizeof(long));
+    std::cout << "Actual number of elements of array after sort operations: " << newSizeOfArr << std::endl;
     for(int i = 0; i < newSizeOfArr; i++)
         std::cout << array[i] << " ";
     return 0;
